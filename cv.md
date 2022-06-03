@@ -38,7 +38,7 @@ It's the correct code:
 
 #### Projects:
 
-[My CV]()
+[My CV](https://belotskydmitry.github.io/rsschool-cv/cv)
 
 #### Education and Courses:
 
