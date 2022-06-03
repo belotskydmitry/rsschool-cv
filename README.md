@@ -1,2 +1,1 @@
-# rsschool-cv
-CV (stage 0)
+https://belotskydmitry.github.io/rsschool-cv/cv
