@@ -1,0 +1,170 @@
+body {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.header {
+    background: #76D7C4;
+    display: flex;
+    align-items: center;
+}
+
+.header_menu {
+    list-style: none;
+    gap: 5%;
+}
+
+.header_menu a {
+    font-family: Arial, sans-serif;
+    color: #FDFEFE;
+    text-decoration: none;
+}
+
+.main {
+    background: #F2F4F4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_content {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 5% auto;
+}
+
+.main_me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+.main_me img {
+    width: 20%;
+    border-radius: 10%;
+}
+
+.main_me_text h1 {
+    font-family: Arial, sans-serif;
+    color: #E59866;
+}
+
+.main_me_text h2 {
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    color: #F6DDCC;
+}
+
+.contacts h2 {
+    font-family: Arial, sans-serif;
+    color: #E59866;
+}
+
+.contacts li {
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    color: #76D7C4;
+}
+
+.contacts a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    color: #76D7C4;
+}
+
+.about h2 {
+    font-family: Arial, sans-serif;
+    color: #E59866; 
+}
+
+.about p {
+    font-family: Arial, sans-serif;
+    color: #76D7C4;
+}
+
+.skills h2 {
+    font-family: Arial, sans-serif;
+    color: #E59866;
+}
+
+.skills ul {
+    font-family: Arial, sans-serif;
+    color: #76D7C4;
+}
+
+.code h2 {
+    font-family: Arial, sans-serif;
+    color: #E59866;
+}
+
+.code code {
+    font-family: Arial, sans-serif;
+    color: #76D7C4;
+}
+
+.projects h2 {
+    font-family: Arial, sans-serif;
+    color: #E59866;
+}
+
+.projects ol {
+    color: #76D7C4;
+}
+
+.projects a {
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    color: #76D7C4;
+}
+
+.education h2 {
+    font-family: Arial, sans-serif;
+    color: #E59866;
+}
+
+.education ul {
+    font-family: Arial, sans-serif;
+    color: #76D7C4;
+}
+
+.languages h2 {
+    font-family: Arial, sans-serif;
+    color: #E59866;
+}
+
+.languages ul {
+    font-family: Arial, sans-serif;
+    color: #76D7C4;
+}
+
+.footer {
+    background: #76D7C4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_text {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1%;
+}
+
+.footer_text h3 {
+    font-family: Arial, sans-serif;
+    color: #FDFEFE;
+}
+
+.footer_text a {
+    text-decoration: none;
+    color: #FDFEFE;
+}
+
+.footer_text img {
+    width: 100px;
+}
