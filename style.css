@@ -2,3 +2,170 @@ body {
     max-width: 1280px;
     margin: 0 auto;
 }
+
+.header {
+    background: #76D7C4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_menu {
+    width: 95%;
+    display: flex;
+    list-style: none;
+    gap: 3vw;
+    margin: 5%;
+}
+
+.header_menu a {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    line-height: 160%;
+    color: #FDFEFE;
+    text-decoration: none;
+}
+
+.main_me {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+    margin: 5% auto;
+}
+
+.main_me img {
+    width: 200px;
+    border-radius: ;
+}
+
+.main_me_text h1 {
+    font-family: Arial, sans-serif;
+    color: #E59866;
+}
+
+.main_me_text h3 {
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    color: #F6DDCC;
+}
+
+.main_info {
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    margin: 5% auto;
+}
+
+.contacts h4 {
+    font-family: Arial, sans-serif;
+    color: #E59866;
+}
+
+.contacts p {
+    display: flex;
+    gap: 1vw;
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    color: #F6DDCC;
+}
+
+.contacts a {
+    text-decoration: none;
+    font-style: normal;
+    color: #76D7C4;
+}
+
+.about h4 {
+    font-family: Arial, sans-serif;
+    color: #E59866; 
+}
+
+.about p {
+    font-family: Arial, sans-serif;
+    color: #76D7C4;
+}
+
+.skills h4 {
+    font-family: Arial, sans-serif;
+    color: #E59866;
+}
+
+.skills ul {
+    font-family: Arial, sans-serif;
+    color: #76D7C4;
+}
+
+.code h4 {
+    font-family: Arial, sans-serif;
+    color: #E59866;
+}
+
+.code pre {
+    font-family: Arial, sans-serif;
+    color: #76D7C4;
+}
+
+.projects h4 {
+    font-family: Arial, sans-serif;
+    color: #E59866;
+}
+
+.projects ol {
+    color: #76D7C4;
+}
+
+.projects a {
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    color: #76D7C4;
+}
+
+.education h4 {
+    font-family: Arial, sans-serif;
+    color: #E59866;
+}
+
+.education ul {
+    font-family: Arial, sans-serif;
+    color: #76D7C4;
+}
+
+.languages h4 {
+    font-family: Arial, sans-serif;
+    color: #E59866;
+}
+
+.languages ul {
+    font-family: Arial, sans-serif;
+    color: #76D7C4;
+}
+
+.footer {
+    background: #76D7C4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_text {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_text h5 {
+    font-family: Arial, sans-serif;
+    color: #FDFEFE;
+}
+
+.footer_text a {
+    text-decoration: none;
+    color: #FDFEFE;
+}
+
+.footer_text img {
+    width: 100px;
+}
