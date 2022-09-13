@@ -6,18 +6,25 @@ body {
 .header {
     background: #76D7C4;
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
 .header_menu {
+    display: flex;
+    gap: 30px;
     list-style: none;
-    gap: 5%;
 }
 
 .header_menu a {
     font-family: Arial, sans-serif;
     color: #FDFEFE;
     text-decoration: none;
+}
+
+.header_menu a:hover {
+    color: #E59866;
+    transition: all 0.3s;
 }
 
 .main {
@@ -38,7 +45,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5%;
+    gap: 15px;
 }
 
 .main_me img {
@@ -95,14 +102,8 @@ body {
     color: #76D7C4;
 }
 
-.code h2 {
-    font-family: Arial, sans-serif;
-    color: #E59866;
-}
-
-.code code {
-    font-family: Arial, sans-serif;
-    color: #76D7C4;
+.skills img {
+    width: 50%;
 }
 
 .projects h2 {
@@ -117,6 +118,7 @@ body {
 .projects a {
     text-decoration: none;
     font-family: Arial, sans-serif;
+    font-weight: bold;
     color: #76D7C4;
 }
 
